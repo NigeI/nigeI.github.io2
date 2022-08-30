@@ -4687,3 +4687,9 @@ input, select, textarea {
 		}
 
 	}
+ul li::before {
+  content: attr(data-icon);
+  /* Make slightly larger than the li font-size
+  but smaller than the li gap */
+  font-size: 0.8em;
+}
